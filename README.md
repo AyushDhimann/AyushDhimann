@@ -6,4 +6,8 @@
 
 ---
 
+[![wakatime](https://wakatime.com/badge/user/141b7202-4763-4c4c-9363-5d17f006f4d8.svg)](https://wakatime.com/@141b7202-4763-4c4c-9363-5d17f006f4d8)
+
+---
+
 ![Visitor Count](https://profile-counter.glitch.me/AyushDhimann/count.svg)
