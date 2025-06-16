@@ -14,6 +14,9 @@ Most importantly, I genuinely want to work hard and provide value to projects th
 
 Don’t just take my word for it – check out some of my projects (demos included!):
 
+### 🍜🔍 **Noodl.** *[Link](https://github.com/AyushDhimann/Noodl)*:
+A Web3 app that turns topics into gamified courses named as Noodl.
+
 ### 🧠🔍 **Boring Brains** *[Link](https://github.com/AyushDhimann/BoringBrains)*:
 A Chrome extension that records your browsing history (opt-in) to help you search for anything, big or small. Use cases include shopping, studying, research, etc. **Won the Student Hacks hackathon.**
 
