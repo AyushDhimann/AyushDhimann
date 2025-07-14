@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50px" alt="Waving Cat GIF"/>
 </p>
 
-Heya ![Visitor Count](https://komarev.com/ghpvc/?username=AyushDhimann&label=Viewer%20Number&color=orange&style=for-the-badge)! Feel free to scramble through my profile, or maybe let me give you a tour hehehe. 😉
+Heya ![Visitor Count](https://komarev.com/ghpvc/?username=AyushDhimann&label=Viewer%20Number&color=orange&style=for-the-badge)! Feel free to scramble through my profile, or maybe try entering ``` npx ayushdhiman ``` in your terminal to know me and send me a message and play some games, or let me give you a tour myself hehehe. 😉
 
 Let’s start with a small introduction. I'm **Ayush Dhiman** (a·yush dhi·man, [əˈjuːʃ ˈdɪmən]), 23 years old, and currently working on building up my secret startup (Hint: It tackles provocative media!). I love **Formula 1**, **hackathons**, tasty food, and staying updated on the latest tech news, along with some vibe coding sessions.
 
