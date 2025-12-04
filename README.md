@@ -14,7 +14,7 @@ Most importantly, I genuinely want to work hard and provide value to projects th
 
 Don’t just take my word for it – check out some of my projects (demos included!):
 
-### 🌟📰 **PlainCrisp** *[Link](https://github.com/AyushDhimann/PlainCrisp)*: 
+### 🌟📰 **PlainCrisp** *[Link](https://www.plaincrisp.com)*: 
 Are you frustrated from clickbait-y, novel sized, un-personalized, boring news articles?  PlainCrisp caresses your mind and patience, with clarity in a single sentence.
 
 
