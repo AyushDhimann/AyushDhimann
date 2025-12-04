@@ -4,7 +4,7 @@
 
 Heya ![Visitor Count](https://komarev.com/ghpvc/?username=AyushDhimann&label=Viewer%20Number&color=orange&style=for-the-badge)! Feel free to scramble through my profile, or maybe try entering ``` npx ayushdhiman ``` in your terminal to know me and send me a message and play some games, or let me give you a tour myself hehehe. 😉
 
-Let’s start with a small introduction. I'm **Ayush Dhiman** (a·yush dhi·man, [əˈjuːʃ ˈdɪmən]), 23 years old, and currently working on building up my secret startup (Hint: It tackles provocative media!). I love **Formula 1**, **hackathons**, tasty food, and staying updated on the latest tech news, along with some vibe coding sessions.
+Let’s start with a small introduction. I'm **Ayush Dhiman** (a·yush dhi·man, [əˈjuːʃ ˈdɪmən]), 23 years old, and currently building [PlainCrisp](https://www.plaincrisp.com). I love **Formula 1**, **hackathons**, tasty food, and staying updated on the latest tech news, along with some vibe coding sessions.
 
 Graduated with a **Bachelor of Technology in Computer Science**, specializing in Cyber Security and Digital Forensics from VIT Bhopal University. I am **currently looking for new opportunities** and am open to offers!
 
@@ -14,8 +14,21 @@ Most importantly, I genuinely want to work hard and provide value to projects th
 
 Don’t just take my word for it – check out some of my projects (demos included!):
 
+### 🌟📰 **PlainCrisp** *[Link](https://github.com/AyushDhimann/PlainCrisp)*: 
+Are you frustrated from clickbait-y, novel sized, un-personalized, boring news articles?  PlainCrisp caresses your mind and patience, with clarity in a single sentence.
+
+
+### 🎨💼 **Portfolio** *[Link](https://ayushdhiman.dev)*: 
+Built from scratch a portfolio website, with case studies on my major projects and subtle animations throughout the website focusing on minimalism and playfulness.
+
+
+### 🤖📚 **RAGging** *[Link](https://github.com/AyushDhimann/RAGging)*: 
+RAG with 11 agents and a local open-source LLM supporting 5 languages with a 100% document retrieval accuracy under 1 seconds using gemma3:4b and Gemini embeddings along with BM25 ranker.
+
+
 ### 🍜🔍 **Noodl.** *[Link](https://github.com/AyushDhimann/Noodl)*:
 A Web3 app that turns topics into gamified courses named as Noodl.
+
 
 ### 🧠🔍 **Boring Brains** *[Link](https://github.com/AyushDhimann/BoringBrains)*:
 A Chrome extension that records your browsing history (opt-in) to help you search for anything, big or small. Use cases include shopping, studying, research, etc. **Won the Student Hacks hackathon.**
