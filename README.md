@@ -4,7 +4,7 @@
 
 Heya ![Visitor Count](https://komarev.com/ghpvc/?username=AyushDhimann&label=Viewer%20Number&color=orange&style=for-the-badge)! Feel free to scramble through my profile, or maybe try entering ``` npx ayushdhiman ``` in your terminal to know me and send me a message and play some games, or let me give you a tour myself hehehe. 😉
 
-Let’s start with a small introduction. I'm **Ayush Dhiman** (a·yush dhi·man, [əˈjuːʃ ˈdɪmən]), 23 years old, and currently building [PlainCrisp](https://www.plaincrisp.com). I love **Formula 1**, **hackathons**, tasty food, and staying updated on the latest tech news, along with some vibe coding sessions.
+Let’s start with a small introduction. I'm **Ayush Dhiman** (ah-yush dhee-maan, {ɑːˈjuːʃ dʰiːˈmɑːn}), 23 years old, and currently building [PlainCrisp](https://www.plaincrisp.com). I love **Formula 1**, **hackathons**, tasty food, and staying updated on the latest tech news, along with some vibe coding sessions.
 
 Graduated with a **Bachelor of Technology in Computer Science**, specializing in Cyber Security and Digital Forensics from VIT Bhopal University. I am **currently looking for new opportunities** and am open to offers!
 
