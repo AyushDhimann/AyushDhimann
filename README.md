@@ -69,9 +69,5 @@ A WordPress plugin designed to track user behavior on a website, featuring a Tab
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AyushDhimann/AyushDhimann/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AyushDhimann/AyushDhimann/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AyushDhimann/AyushDhimann/output/github-contribution-grid-snake.svg">
-</picture>
+![Space Shooter](./assets/space-shooter.gif)
 
