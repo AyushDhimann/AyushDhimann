@@ -19,7 +19,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install matplotlib
+        run: pip install matplotlib==3.10.8
 
       - name: Update viewer history and chart
         run: |
@@ -49,7 +49,7 @@ jobs:
               except ET.ParseError:
                   pass
 
-              matches = re.findall(r">\\s*([\\d,]+)\\s*<", svg_text)
+              matches = re.findall(r">\s*([\d,]+)\s*<", svg_text)
               if matches:
                   return int(matches[-1].replace(",", ""))
               raise ValueError("Could not parse viewer count from Komarev response")
