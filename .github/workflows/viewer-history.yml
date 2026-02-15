@@ -1,0 +1,163 @@
+name: Update Viewer History Chart
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-viewer-history:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install matplotlib
+
+      - name: Update viewer history and chart
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timedelta
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          import matplotlib.pyplot as plt
+
+          history_path = Path("assets/viewers_history.json")
+          image_path = Path("assets/viewer_history.png")
+          history_path.parent.mkdir(parents=True, exist_ok=True)
+
+          def extract_view_count(svg_text: str) -> int:
+              try:
+                  root = ET.fromstring(svg_text)
+                  for element in root.iter():
+                      if element.tag.endswith("text"):
+                          value = "".join(element.itertext()).strip().replace(",", "")
+                          if value.isdigit():
+                              return int(value)
+              except ET.ParseError:
+                  pass
+
+              matches = re.findall(r">\\s*([\\d,]+)\\s*<", svg_text)
+              if matches:
+                  return int(matches[-1].replace(",", ""))
+              raise ValueError("Could not parse viewer count from Komarev response")
+
+          try:
+              with urllib.request.urlopen(
+                  "https://komarev.com/ghpvc/?username=AyushDhimann",
+                  timeout=20,
+              ) as response:
+                  svg = response.read().decode("utf-8", errors="ignore")
+              current_count = extract_view_count(svg)
+          except Exception:
+              if history_path.exists():
+                  existing = json.loads(history_path.read_text(encoding="utf-8"))
+                  current_count = int(existing[-1]["viewer_count"]) if existing else 0
+              else:
+                  raise
+
+          now_ist = datetime.now(ZoneInfo("Asia/Kolkata"))
+          history = []
+          if history_path.exists():
+              try:
+                  loaded = json.loads(history_path.read_text(encoding="utf-8"))
+                  if isinstance(loaded, list):
+                      history = loaded
+              except json.JSONDecodeError:
+                  history = []
+
+          last_count = int(history[-1]["viewer_count"]) if history else current_count
+          delta = max(0, current_count - last_count)
+          history.append(
+              {
+                  "timestamp_ist": now_ist.isoformat(),
+                  "viewer_count": current_count,
+                  "views_in_last_6h": delta,
+              }
+          )
+
+          cutoff = now_ist - timedelta(days=7)
+          filtered_history = []
+          for item in history:
+              try:
+                  timestamp = datetime.fromisoformat(item["timestamp_ist"])
+                  if timestamp >= cutoff:
+                      filtered_history.append(item)
+              except (KeyError, ValueError, TypeError):
+                  continue
+
+          history_path.write_text(
+              json.dumps(filtered_history, indent=2) + "\n",
+              encoding="utf-8",
+          )
+
+          if not filtered_history:
+              raise RuntimeError("Viewer history is empty; chart cannot be generated.")
+
+          points = [
+              (
+                  datetime.fromisoformat(item["timestamp_ist"]),
+                  int(item["viewer_count"]),
+                  int(item["views_in_last_6h"]),
+              )
+              for item in filtered_history
+          ]
+          points.sort(key=lambda item: item[0])
+          timestamps = [item[0] for item in points]
+          totals = [item[1] for item in points]
+          deltas = [item[2] for item in points]
+
+          x_values = list(range(len(points)))
+          fig, ax_total = plt.subplots(figsize=(8.6, 1.8), dpi=100)
+          ax_delta = ax_total.twinx()
+
+          ax_total.bar(x_values, totals, color="#f6d6bd", alpha=0.45, width=0.8)
+          ax_delta.plot(
+              x_values,
+              deltas,
+              color="#ff7a00",
+              linewidth=1.8,
+              marker="o",
+              markersize=2.8,
+          )
+
+          step = max(1, len(points) // 7)
+          tick_indexes = list(range(0, len(points), step))
+          if tick_indexes[-1] != len(points) - 1:
+              tick_indexes.append(len(points) - 1)
+
+          ax_total.set_xticks(tick_indexes)
+          ax_total.set_xticklabels(
+              [timestamps[i].strftime("%d %b\n%H:%M") for i in tick_indexes],
+              fontsize=6.5,
+          )
+          ax_total.set_xlabel("IST time", fontsize=7)
+          ax_delta.set_ylabel("Views / 6h", fontsize=7, color="#ff7a00")
+          ax_total.set_ylabel("Total views", fontsize=7, color="#ad7f5a")
+          ax_total.tick_params(axis="y", labelsize=6)
+          ax_delta.tick_params(axis="y", labelsize=6, colors="#ff7a00")
+          ax_total.grid(axis="y", linestyle="--", alpha=0.25)
+
+          fig.tight_layout(pad=0.4)
+          fig.savefig(image_path, dpi=100)
+          plt.close(fig)
+          PY
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/viewers_history.json assets/viewer_history.png
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update viewer history chart" && git push)
