@@ -1,9 +1,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50px" alt="Waving Cat GIF"/>
 </p>
-<p align="center">
-  <img src="./assets/viewer_history.png" width="860" height="180" alt="Viewer history chart"/>
-</p>
+
 
 Heya ![Visitor Count](https://komarev.com/ghpvc/?username=AyushDhimann&label=Viewer%20Number&color=orange&style=for-the-badge)! Feel free to scramble through my profile, or maybe try entering ``` npx ayushdhiman ``` in your terminal to know me and send me a message and play some games, or let me give you a tour myself hehehe. 😉
 
@@ -73,3 +71,7 @@ A WordPress plugin designed to track user behavior on a website, featuring a Tab
 ---
 
 ![Space Shooter](./assets/space-shooter.gif)
+
+<p align="center">
+  <img src="./assets/viewer_history.png" width="860" height="180" alt="Viewer history chart"/>
+</p>
