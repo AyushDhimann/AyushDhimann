@@ -33,6 +33,7 @@ jobs:
           from zoneinfo import ZoneInfo
 
           import matplotlib.pyplot as plt
+          from matplotlib import ticker
 
           history_path = Path("assets/viewers_history.json")
           image_path = Path("assets/viewer_history.png")
@@ -123,7 +124,17 @@ jobs:
           fig, ax_total = plt.subplots(figsize=(8.6, 1.8), dpi=100)
           ax_delta = ax_total.twinx()
 
+          # Set up Total Views (Bars) with focused scale
           ax_total.bar(x_values, totals, color="#f6d6bd", alpha=0.45, width=0.8)
+          
+          # This ensures the Y-axis doesn't start at 0, showing the small changes
+          ymin, ymax = min(totals), max(totals)
+          ax_total.set_ylim(ymin - 10, ymax + 20) 
+          
+          # This forces the 50-value increments you requested
+          ax_total.yaxis.set_major_locator(ticker.MultipleLocator(50))
+
+          # Set up Views / 6h (Line)
           ax_delta.plot(
               x_values,
               deltas,
@@ -135,7 +146,7 @@ jobs:
 
           step = max(1, len(points) // 7)
           tick_indexes = list(range(0, len(points), step))
-          if tick_indexes[-1] != len(points) - 1:
+          if tick_indexes and tick_indexes[-1] != len(points) - 1:
               tick_indexes.append(len(points) - 1)
 
           ax_total.set_xticks(tick_indexes)
