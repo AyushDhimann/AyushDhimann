@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="spiderverse-banner.svg" width="100%" alt="My Spiderverse Profile Banner">
+  <img src="assets/spiderverse-banner.svg" width="100%" alt="My Spiderverse Profile Banner">
 </p>
 
 
