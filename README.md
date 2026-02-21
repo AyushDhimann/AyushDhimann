@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50px" alt="Waving Cat GIF"/>
+  <img src="spiderverse-banner.svg" width="100%" alt="My Spiderverse Profile Banner">
 </p>
 
 
