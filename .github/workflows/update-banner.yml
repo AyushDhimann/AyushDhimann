@@ -1,0 +1,64 @@
+name: Update Dynamic Spiderverse Banner
+
+on:
+  schedule:
+    - cron: '0 */3 * * *' # Runs every 3 hours automatically
+  workflow_dispatch: # Allows you to trigger it manually from the Actions tab
+
+jobs:
+  update-svg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to push the updated SVG back to your repo
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Joke & Generate Final SVG
+        run: |
+          python3 -c "
+          import urllib.request, json, textwrap
+          
+          # Fetch a random one-liner programming joke
+          try:
+              req = urllib.request.Request('https://v2.jokeapi.dev/joke/Programming?type=single', headers={'User-Agent': 'Mozilla/5.0'})
+              with urllib.request.urlopen(req) as res:
+                  joke = json.loads(res.read())['joke']
+          except Exception:
+              joke = '404: HUMOR NOT FOUND, BUT MY CODE COMPILES!'
+          
+          # Wrap the text so it fits within the 800px width (approx 45 chars max)
+          lines = textwrap.wrap(joke, width=45)[:3] # clamp to max 3 lines
+          
+          # Helper function to generate SVG text lines
+          def make_texts(layer_class):
+              html = ''
+              y_start = 60 - ((len(lines) - 1) * 16)
+              for i, line in enumerate(lines):
+                  y = y_start + (i * 32)
+                  # Escape single quotes and use double quotes for HTML attributes
+                  html += f'<text x=\"400\" y=\"{y}\" class=\"font-comic-small {layer_class}\">{line.upper()}</text>\n'
+              return html
+              
+          # Read the template
+          with open('assets/template.svg', 'r') as f:
+              svg = f.read()
+              
+          # Inject the dynamic text blocks into the placeholders
+          svg = svg.replace('<!-- DYNAMIC_CYAN -->', make_texts('layer-cyan'))
+          svg = svg.replace('<!-- DYNAMIC_RED -->', make_texts('layer-red'))
+          svg = svg.replace('<!-- DYNAMIC_WHITE -->', make_texts('layer-white'))
+          
+          # Write the generated file
+          with open('assets/spiderverse-banner.svg', 'w') as f:
+              f.write(svg)
+          "
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add spiderverse-banner.svg
+          git commit -m "chore: update dynamic banner joke" || exit 0
+          git push
