@@ -182,14 +182,14 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="44" class="font-comic-small layer-cyan">YOUR MAMA'S SO FAT SHE CAN'T SAVE FILES</text>
-<text x="400" y="76" class="font-comic-small layer-cyan">BIGGER THAN 4GB.</text>
+    <text x="400" y="44" class="font-comic-small layer-cyan">JAVA IS LIKE ALZHEIMER'S, IT STARTS OFF SLOW,</text>
+<text x="400" y="76" class="font-comic-small layer-cyan">BUT EVENTUALLY, YOUR MEMORY IS GONE.</text>
 
-    <text x="400" y="44" class="font-comic-small layer-red">YOUR MAMA'S SO FAT SHE CAN'T SAVE FILES</text>
-<text x="400" y="76" class="font-comic-small layer-red">BIGGER THAN 4GB.</text>
+    <text x="400" y="44" class="font-comic-small layer-red">JAVA IS LIKE ALZHEIMER'S, IT STARTS OFF SLOW,</text>
+<text x="400" y="76" class="font-comic-small layer-red">BUT EVENTUALLY, YOUR MEMORY IS GONE.</text>
 
-    <text x="400" y="44" class="font-comic-small layer-white">YOUR MAMA'S SO FAT SHE CAN'T SAVE FILES</text>
-<text x="400" y="76" class="font-comic-small layer-white">BIGGER THAN 4GB.</text>
+    <text x="400" y="44" class="font-comic-small layer-white">JAVA IS LIKE ALZHEIMER'S, IT STARTS OFF SLOW,</text>
+<text x="400" y="76" class="font-comic-small layer-white">BUT EVENTUALLY, YOUR MEMORY IS GONE.</text>
 
   </g>
 
