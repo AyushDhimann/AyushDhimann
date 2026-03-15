@@ -182,17 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">TWO C STRINGS WALK INTO A BAR. THE BARTENDER</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">ASKS "WHAT CAN I GET YA?" THE FIRST STRING</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">SAYS "I'LL HAVE A GIN AND TONIC." THE SECOND</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">TODAY I LEARNED THAT CHANGING RANDOM STUFF</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">UNTIL YOUR PROGRAM WORKS IS "HACKY" AND A</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">"BAD CODING PRACTICE" BUT IF YOU DO IT FAST</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">TWO C STRINGS WALK INTO A BAR. THE BARTENDER</text>
-<text x="400" y="60" class="font-comic-small layer-red">ASKS "WHAT CAN I GET YA?" THE FIRST STRING</text>
-<text x="400" y="92" class="font-comic-small layer-red">SAYS "I'LL HAVE A GIN AND TONIC." THE SECOND</text>
+    <text x="400" y="28" class="font-comic-small layer-red">TODAY I LEARNED THAT CHANGING RANDOM STUFF</text>
+<text x="400" y="60" class="font-comic-small layer-red">UNTIL YOUR PROGRAM WORKS IS "HACKY" AND A</text>
+<text x="400" y="92" class="font-comic-small layer-red">"BAD CODING PRACTICE" BUT IF YOU DO IT FAST</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">TWO C STRINGS WALK INTO A BAR. THE BARTENDER</text>
-<text x="400" y="60" class="font-comic-small layer-white">ASKS "WHAT CAN I GET YA?" THE FIRST STRING</text>
-<text x="400" y="92" class="font-comic-small layer-white">SAYS "I'LL HAVE A GIN AND TONIC." THE SECOND</text>
+    <text x="400" y="28" class="font-comic-small layer-white">TODAY I LEARNED THAT CHANGING RANDOM STUFF</text>
+<text x="400" y="60" class="font-comic-small layer-white">UNTIL YOUR PROGRAM WORKS IS "HACKY" AND A</text>
+<text x="400" y="92" class="font-comic-small layer-white">"BAD CODING PRACTICE" BUT IF YOU DO IT FAST</text>
 
   </g>
 
