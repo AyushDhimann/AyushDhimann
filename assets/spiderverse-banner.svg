@@ -182,14 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="44" class="font-comic-small layer-cyan">KNOCK KNOCK. WHO'S THERE? RECURSION.</text>
-<text x="400" y="76" class="font-comic-small layer-cyan">RECURSION WHO? KNOCK KNOCK.</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">HAVE A GREAT WEEKEND! I HOPE YOUR CODE</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">BEHAVES THE SAME ON MONDAY AS IT DID ON</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">FRIDAY.</text>
 
-    <text x="400" y="44" class="font-comic-small layer-red">KNOCK KNOCK. WHO'S THERE? RECURSION.</text>
-<text x="400" y="76" class="font-comic-small layer-red">RECURSION WHO? KNOCK KNOCK.</text>
+    <text x="400" y="28" class="font-comic-small layer-red">HAVE A GREAT WEEKEND! I HOPE YOUR CODE</text>
+<text x="400" y="60" class="font-comic-small layer-red">BEHAVES THE SAME ON MONDAY AS IT DID ON</text>
+<text x="400" y="92" class="font-comic-small layer-red">FRIDAY.</text>
 
-    <text x="400" y="44" class="font-comic-small layer-white">KNOCK KNOCK. WHO'S THERE? RECURSION.</text>
-<text x="400" y="76" class="font-comic-small layer-white">RECURSION WHO? KNOCK KNOCK.</text>
+    <text x="400" y="28" class="font-comic-small layer-white">HAVE A GREAT WEEKEND! I HOPE YOUR CODE</text>
+<text x="400" y="60" class="font-comic-small layer-white">BEHAVES THE SAME ON MONDAY AS IT DID ON</text>
+<text x="400" y="92" class="font-comic-small layer-white">FRIDAY.</text>
 
   </g>
 
