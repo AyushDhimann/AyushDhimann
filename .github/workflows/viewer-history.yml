@@ -23,6 +23,8 @@ jobs:
 
       - name: Update viewer history and chart
         run: |
+          # Wait 60 seconds before fetching the latest viewer count.
+          sleep 60
           python - <<'PY'
           import json
           import re
