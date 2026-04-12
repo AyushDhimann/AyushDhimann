@@ -23,6 +23,7 @@ jobs:
 
       - name: Update viewer history and chart
         run: |
+          sleep 60
           python - <<'PY'
           import json
           import re
