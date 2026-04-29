@@ -182,17 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">A GUY WALKS INTO A BAR AND ASKS FOR 1.4 ROOT</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">BEERS. THE BARTENDER SAYS "I'LL HAVE TO</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">CHARGE YOU EXTRA, THAT'S A ROOT BEER FLOAT".</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">FOUR ENGINEERS GET INTO A CAR. THE CAR WON'T</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">START. THE MECHANICAL ENGINEER SAYS "IT'S A</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">BROKEN STARTER". THE ELECTRICAL ENGINEER SAYS</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">A GUY WALKS INTO A BAR AND ASKS FOR 1.4 ROOT</text>
-<text x="400" y="60" class="font-comic-small layer-red">BEERS. THE BARTENDER SAYS "I'LL HAVE TO</text>
-<text x="400" y="92" class="font-comic-small layer-red">CHARGE YOU EXTRA, THAT'S A ROOT BEER FLOAT".</text>
+    <text x="400" y="28" class="font-comic-small layer-red">FOUR ENGINEERS GET INTO A CAR. THE CAR WON'T</text>
+<text x="400" y="60" class="font-comic-small layer-red">START. THE MECHANICAL ENGINEER SAYS "IT'S A</text>
+<text x="400" y="92" class="font-comic-small layer-red">BROKEN STARTER". THE ELECTRICAL ENGINEER SAYS</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">A GUY WALKS INTO A BAR AND ASKS FOR 1.4 ROOT</text>
-<text x="400" y="60" class="font-comic-small layer-white">BEERS. THE BARTENDER SAYS "I'LL HAVE TO</text>
-<text x="400" y="92" class="font-comic-small layer-white">CHARGE YOU EXTRA, THAT'S A ROOT BEER FLOAT".</text>
+    <text x="400" y="28" class="font-comic-small layer-white">FOUR ENGINEERS GET INTO A CAR. THE CAR WON'T</text>
+<text x="400" y="60" class="font-comic-small layer-white">START. THE MECHANICAL ENGINEER SAYS "IT'S A</text>
+<text x="400" y="92" class="font-comic-small layer-white">BROKEN STARTER". THE ELECTRICAL ENGINEER SAYS</text>
 
   </g>
 
