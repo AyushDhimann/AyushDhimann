@@ -182,17 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">FOUR ENGINEERS GET INTO A CAR. THE CAR WON'T</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">START. THE MECHANICAL ENGINEER SAYS "IT'S A</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">BROKEN STARTER". THE ELECTRICAL ENGINEER SAYS</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">A MAN IS SMOKING A CIGARETTE AND BLOWING</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">SMOKE RINGS INTO THE AIR. HIS GIRLFRIEND</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">BECOMES IRRITATED WITH THE SMOKE AND SAYS</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">FOUR ENGINEERS GET INTO A CAR. THE CAR WON'T</text>
-<text x="400" y="60" class="font-comic-small layer-red">START. THE MECHANICAL ENGINEER SAYS "IT'S A</text>
-<text x="400" y="92" class="font-comic-small layer-red">BROKEN STARTER". THE ELECTRICAL ENGINEER SAYS</text>
+    <text x="400" y="28" class="font-comic-small layer-red">A MAN IS SMOKING A CIGARETTE AND BLOWING</text>
+<text x="400" y="60" class="font-comic-small layer-red">SMOKE RINGS INTO THE AIR. HIS GIRLFRIEND</text>
+<text x="400" y="92" class="font-comic-small layer-red">BECOMES IRRITATED WITH THE SMOKE AND SAYS</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">FOUR ENGINEERS GET INTO A CAR. THE CAR WON'T</text>
-<text x="400" y="60" class="font-comic-small layer-white">START. THE MECHANICAL ENGINEER SAYS "IT'S A</text>
-<text x="400" y="92" class="font-comic-small layer-white">BROKEN STARTER". THE ELECTRICAL ENGINEER SAYS</text>
+    <text x="400" y="28" class="font-comic-small layer-white">A MAN IS SMOKING A CIGARETTE AND BLOWING</text>
+<text x="400" y="60" class="font-comic-small layer-white">SMOKE RINGS INTO THE AIR. HIS GIRLFRIEND</text>
+<text x="400" y="92" class="font-comic-small layer-white">BECOMES IRRITATED WITH THE SMOKE AND SAYS</text>
 
   </g>
 
