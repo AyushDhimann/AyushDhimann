@@ -182,17 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">DOCUMENTATION IS LIKE SEX: WHEN IT'S GOOD,</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">IT'S VERY GOOD. WHEN IT'S BAD, IT'S BETTER</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">THAN NOTHING...</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">DEBUGGING IS LIKE BEING THE DETECTIVE IN A</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">CRIME MOVIE WHERE YOU'RE ALSO THE MURDERER AT</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">THE SAME TIME.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">DOCUMENTATION IS LIKE SEX: WHEN IT'S GOOD,</text>
-<text x="400" y="60" class="font-comic-small layer-red">IT'S VERY GOOD. WHEN IT'S BAD, IT'S BETTER</text>
-<text x="400" y="92" class="font-comic-small layer-red">THAN NOTHING...</text>
+    <text x="400" y="28" class="font-comic-small layer-red">DEBUGGING IS LIKE BEING THE DETECTIVE IN A</text>
+<text x="400" y="60" class="font-comic-small layer-red">CRIME MOVIE WHERE YOU'RE ALSO THE MURDERER AT</text>
+<text x="400" y="92" class="font-comic-small layer-red">THE SAME TIME.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">DOCUMENTATION IS LIKE SEX: WHEN IT'S GOOD,</text>
-<text x="400" y="60" class="font-comic-small layer-white">IT'S VERY GOOD. WHEN IT'S BAD, IT'S BETTER</text>
-<text x="400" y="92" class="font-comic-small layer-white">THAN NOTHING...</text>
+    <text x="400" y="28" class="font-comic-small layer-white">DEBUGGING IS LIKE BEING THE DETECTIVE IN A</text>
+<text x="400" y="60" class="font-comic-small layer-white">CRIME MOVIE WHERE YOU'RE ALSO THE MURDERER AT</text>
+<text x="400" y="92" class="font-comic-small layer-white">THE SAME TIME.</text>
 
   </g>
 
