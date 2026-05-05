@@ -182,17 +182,14 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">BEING A SELF-TAUGHT DEVELOPER IS ALMOST THE</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">SAME AS BEING A CUT NECK CHICKEN BECAUSE YOU</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">HAVE NO SENSE OF DIRECTION IN THE BEGINNING.</text>
+    <text x="400" y="44" class="font-comic-small layer-cyan">YOUR MAMA'S SO FAT SHE CAN'T SAVE FILES</text>
+<text x="400" y="76" class="font-comic-small layer-cyan">BIGGER THAN 4GB.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">BEING A SELF-TAUGHT DEVELOPER IS ALMOST THE</text>
-<text x="400" y="60" class="font-comic-small layer-red">SAME AS BEING A CUT NECK CHICKEN BECAUSE YOU</text>
-<text x="400" y="92" class="font-comic-small layer-red">HAVE NO SENSE OF DIRECTION IN THE BEGINNING.</text>
+    <text x="400" y="44" class="font-comic-small layer-red">YOUR MAMA'S SO FAT SHE CAN'T SAVE FILES</text>
+<text x="400" y="76" class="font-comic-small layer-red">BIGGER THAN 4GB.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">BEING A SELF-TAUGHT DEVELOPER IS ALMOST THE</text>
-<text x="400" y="60" class="font-comic-small layer-white">SAME AS BEING A CUT NECK CHICKEN BECAUSE YOU</text>
-<text x="400" y="92" class="font-comic-small layer-white">HAVE NO SENSE OF DIRECTION IN THE BEGINNING.</text>
+    <text x="400" y="44" class="font-comic-small layer-white">YOUR MAMA'S SO FAT SHE CAN'T SAVE FILES</text>
+<text x="400" y="76" class="font-comic-small layer-white">BIGGER THAN 4GB.</text>
 
   </g>
 
