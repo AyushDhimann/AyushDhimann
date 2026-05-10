@@ -182,17 +182,14 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">THE SIX STAGES OF DEBUGGING: 1. THAT CAN'T</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">HAPPEN. 2. THAT DOESN'T HAPPEN ON MY MACHINE.</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">3. THAT SHOULDN'T HAPPEN. 4. WHY DOES THAT</text>
+    <text x="400" y="44" class="font-comic-small layer-cyan">THE GENERATION OF RANDOM NUMBERS IS TOO</text>
+<text x="400" y="76" class="font-comic-small layer-cyan">IMPORTANT TO BE LEFT TO CHANCE.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">THE SIX STAGES OF DEBUGGING: 1. THAT CAN'T</text>
-<text x="400" y="60" class="font-comic-small layer-red">HAPPEN. 2. THAT DOESN'T HAPPEN ON MY MACHINE.</text>
-<text x="400" y="92" class="font-comic-small layer-red">3. THAT SHOULDN'T HAPPEN. 4. WHY DOES THAT</text>
+    <text x="400" y="44" class="font-comic-small layer-red">THE GENERATION OF RANDOM NUMBERS IS TOO</text>
+<text x="400" y="76" class="font-comic-small layer-red">IMPORTANT TO BE LEFT TO CHANCE.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">THE SIX STAGES OF DEBUGGING: 1. THAT CAN'T</text>
-<text x="400" y="60" class="font-comic-small layer-white">HAPPEN. 2. THAT DOESN'T HAPPEN ON MY MACHINE.</text>
-<text x="400" y="92" class="font-comic-small layer-white">3. THAT SHOULDN'T HAPPEN. 4. WHY DOES THAT</text>
+    <text x="400" y="44" class="font-comic-small layer-white">THE GENERATION OF RANDOM NUMBERS IS TOO</text>
+<text x="400" y="76" class="font-comic-small layer-white">IMPORTANT TO BE LEFT TO CHANCE.</text>
 
   </g>
 
