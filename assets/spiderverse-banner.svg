@@ -182,14 +182,14 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="44" class="font-comic-small layer-cyan">I'D TELL YOU A JOKE ABOUT NAT BUT I WOULD</text>
-<text x="400" y="76" class="font-comic-small layer-cyan">HAVE TO TRANSLATE.</text>
+    <text x="400" y="44" class="font-comic-small layer-cyan">"KNOCK, KNOCK." "WHO'S THERE?"  [VERY LONG</text>
+<text x="400" y="76" class="font-comic-small layer-cyan">PAUSE]  "JAVA."</text>
 
-    <text x="400" y="44" class="font-comic-small layer-red">I'D TELL YOU A JOKE ABOUT NAT BUT I WOULD</text>
-<text x="400" y="76" class="font-comic-small layer-red">HAVE TO TRANSLATE.</text>
+    <text x="400" y="44" class="font-comic-small layer-red">"KNOCK, KNOCK." "WHO'S THERE?"  [VERY LONG</text>
+<text x="400" y="76" class="font-comic-small layer-red">PAUSE]  "JAVA."</text>
 
-    <text x="400" y="44" class="font-comic-small layer-white">I'D TELL YOU A JOKE ABOUT NAT BUT I WOULD</text>
-<text x="400" y="76" class="font-comic-small layer-white">HAVE TO TRANSLATE.</text>
+    <text x="400" y="44" class="font-comic-small layer-white">"KNOCK, KNOCK." "WHO'S THERE?"  [VERY LONG</text>
+<text x="400" y="76" class="font-comic-small layer-white">PAUSE]  "JAVA."</text>
 
   </g>
 
