@@ -182,14 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="44" class="font-comic-small layer-cyan">JAVA IS LIKE ALZHEIMER'S, IT STARTS OFF SLOW,</text>
-<text x="400" y="76" class="font-comic-small layer-cyan">BUT EVENTUALLY, YOUR MEMORY IS GONE.</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">A SQL STATEMENT WALKS INTO A BAR AND SEES TWO</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">TABLES. IT APPROACHES, AND ASKS "MAY I JOIN</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">YOU?"</text>
 
-    <text x="400" y="44" class="font-comic-small layer-red">JAVA IS LIKE ALZHEIMER'S, IT STARTS OFF SLOW,</text>
-<text x="400" y="76" class="font-comic-small layer-red">BUT EVENTUALLY, YOUR MEMORY IS GONE.</text>
+    <text x="400" y="28" class="font-comic-small layer-red">A SQL STATEMENT WALKS INTO A BAR AND SEES TWO</text>
+<text x="400" y="60" class="font-comic-small layer-red">TABLES. IT APPROACHES, AND ASKS "MAY I JOIN</text>
+<text x="400" y="92" class="font-comic-small layer-red">YOU?"</text>
 
-    <text x="400" y="44" class="font-comic-small layer-white">JAVA IS LIKE ALZHEIMER'S, IT STARTS OFF SLOW,</text>
-<text x="400" y="76" class="font-comic-small layer-white">BUT EVENTUALLY, YOUR MEMORY IS GONE.</text>
+    <text x="400" y="28" class="font-comic-small layer-white">A SQL STATEMENT WALKS INTO A BAR AND SEES TWO</text>
+<text x="400" y="60" class="font-comic-small layer-white">TABLES. IT APPROACHES, AND ASKS "MAY I JOIN</text>
+<text x="400" y="92" class="font-comic-small layer-white">YOU?"</text>
 
   </g>
 
