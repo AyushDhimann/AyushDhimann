@@ -182,17 +182,11 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">EIGHT BYTES WALK INTO A BAR. THE BARTENDER</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">ASKS, "CAN I GET YOU ANYTHING?" "YEAH," REPLY</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">THE BYTES. "MAKE US A DOUBLE."</text>
+    <text x="400" y="60" class="font-comic-small layer-cyan">ASCII SILLY QUESTION, GET A SILLY ANSI.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">EIGHT BYTES WALK INTO A BAR. THE BARTENDER</text>
-<text x="400" y="60" class="font-comic-small layer-red">ASKS, "CAN I GET YOU ANYTHING?" "YEAH," REPLY</text>
-<text x="400" y="92" class="font-comic-small layer-red">THE BYTES. "MAKE US A DOUBLE."</text>
+    <text x="400" y="60" class="font-comic-small layer-red">ASCII SILLY QUESTION, GET A SILLY ANSI.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">EIGHT BYTES WALK INTO A BAR. THE BARTENDER</text>
-<text x="400" y="60" class="font-comic-small layer-white">ASKS, "CAN I GET YOU ANYTHING?" "YEAH," REPLY</text>
-<text x="400" y="92" class="font-comic-small layer-white">THE BYTES. "MAKE US A DOUBLE."</text>
+    <text x="400" y="60" class="font-comic-small layer-white">ASCII SILLY QUESTION, GET A SILLY ANSI.</text>
 
   </g>
 
