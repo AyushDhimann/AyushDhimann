@@ -182,11 +182,14 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="60" class="font-comic-small layer-cyan">ASCII SILLY QUESTION, GET A SILLY ANSI.</text>
+    <text x="400" y="44" class="font-comic-small layer-cyan">TWO SQL TABLES SIT AT THE BAR. A QUERY</text>
+<text x="400" y="76" class="font-comic-small layer-cyan">APPROACHES AND ASKS "CAN I JOIN YOU?"</text>
 
-    <text x="400" y="60" class="font-comic-small layer-red">ASCII SILLY QUESTION, GET A SILLY ANSI.</text>
+    <text x="400" y="44" class="font-comic-small layer-red">TWO SQL TABLES SIT AT THE BAR. A QUERY</text>
+<text x="400" y="76" class="font-comic-small layer-red">APPROACHES AND ASKS "CAN I JOIN YOU?"</text>
 
-    <text x="400" y="60" class="font-comic-small layer-white">ASCII SILLY QUESTION, GET A SILLY ANSI.</text>
+    <text x="400" y="44" class="font-comic-small layer-white">TWO SQL TABLES SIT AT THE BAR. A QUERY</text>
+<text x="400" y="76" class="font-comic-small layer-white">APPROACHES AND ASKS "CAN I JOIN YOU?"</text>
 
   </g>
 
