@@ -23,7 +23,6 @@ jobs:
 
       - name: Update viewer history and chart
         run: |
-          sleep 60
           python - <<'PY'
           import json
           import re
@@ -123,11 +122,10 @@ jobs:
 
           x_values = list(range(len(points)))
 
-          # ── THEME ────────────────────────────────────────────────────────────
-          BG_COLOR     = "#0d1117"
+          BG_COLOR      = "#0d1117"
           ACCENT_ORANGE = "#ff7a00"
-          TEXT_WHITE   = "#ffffff"
-          GRID_COLOR   = "#30363d"
+          TEXT_WHITE    = "#ffffff"
+          GRID_COLOR    = "#30363d"
 
           fig, ax_total = plt.subplots(figsize=(8.6, 1.8), dpi=100)
           fig.patch.set_facecolor(BG_COLOR)
@@ -136,21 +134,16 @@ jobs:
           ax_delta = ax_total.twinx()
           ax_delta.set_facecolor("none")
 
-          # ── BARS (total views) ───────────────────────────────────────────────
           ax_total.bar(x_values, totals, color=ACCENT_ORANGE, alpha=0.15, width=0.8)
 
           ymin, ymax = min(totals), max(totals)
-          total_range = max(ymax - ymin, 1)          # guard against flat data
+          total_range = max(ymax - ymin, 1)
           ax_total.set_ylim(
               ymin - total_range * 0.15,
               ymax + total_range * 0.4,
           )
-          # Adaptive integer ticks — no more MultipleLocator(50) on a 4-unit range
-          ax_total.yaxis.set_major_locator(
-              ticker.MaxNLocator(nbins=4, integer=True)
-          )
+          ax_total.yaxis.set_major_locator(ticker.MaxNLocator(nbins=4, integer=True))
 
-          # ── LINE (views per 6 h) ─────────────────────────────────────────────
           ax_delta.plot(
               x_values,
               deltas,
@@ -162,15 +155,10 @@ jobs:
               markeredgewidth=0.5,
           )
 
-          # FIX: explicit ylim so matplotlib never compresses small integers
           max_delta = max(deltas) if max(deltas) > 0 else 1
           ax_delta.set_ylim(0, max_delta * 1.5 + 1)
-          # FIX: integer-only ticks — prevents "1 shown as 10" axis distortion
-          ax_delta.yaxis.set_major_locator(
-              ticker.MaxNLocator(nbins=5, integer=True)
-          )
+          ax_delta.yaxis.set_major_locator(ticker.MaxNLocator(nbins=5, integer=True))
 
-          # ── X-AXIS LABELS ───────────────────────────────────────────────────
           step = max(1, len(points) // 7)
           tick_indexes = list(range(0, len(points), step))
           if tick_indexes and tick_indexes[-1] != len(points) - 1:
@@ -183,9 +171,9 @@ jobs:
               color=TEXT_WHITE,
           )
 
-          ax_total.set_xlabel("IST time",     fontsize=7, color=TEXT_WHITE)
-          ax_total.set_ylabel("Total views",  fontsize=7, color=TEXT_WHITE)
-          ax_delta.set_ylabel("Views / 6h",   fontsize=7, color=ACCENT_ORANGE, fontweight="bold")
+          ax_total.set_xlabel("IST time",    fontsize=7, color=TEXT_WHITE)
+          ax_total.set_ylabel("Total views", fontsize=7, color=TEXT_WHITE)
+          ax_delta.set_ylabel("Views / 6h",  fontsize=7, color=ACCENT_ORANGE, fontweight="bold")
 
           ax_total.tick_params(axis="y", labelsize=6, colors=TEXT_WHITE)
           ax_total.tick_params(axis="x",              colors=TEXT_WHITE)
@@ -196,7 +184,6 @@ jobs:
                   spine.set_color(GRID_COLOR)
 
           ax_total.grid(axis="y", linestyle="--", alpha=0.3, color=TEXT_WHITE)
-          # ── END THEME ────────────────────────────────────────────────────────
 
           fig.tight_layout(pad=0.4)
           fig.savefig(image_path, dpi=100, facecolor=fig.get_facecolor(), edgecolor="none")
@@ -208,4 +195,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/viewers_history.json assets/viewer_history.png
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update viewer history chart (Dark Theme)" && git push)
+
+          # Skip entirely if nothing changed
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+
+          git commit -m "Update viewer history chart (Dark Theme)"
+
+          # Pull-rebase-push with up to 3 retries to handle concurrent workflow pushes
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && echo "Pushed on attempt $attempt" && exit 0
+            echo "Attempt $attempt failed, retrying in 5s..."
+            sleep 5
+          done
+
+          echo "All push attempts failed" && exit 1
