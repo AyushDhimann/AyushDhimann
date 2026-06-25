@@ -23,7 +23,6 @@ jobs:
 
       - name: Update viewer history and chart
         run: |
-          # Wait 60 seconds before fetching the latest viewer count.
           sleep 60
           python - <<'PY'
           import json
@@ -119,33 +118,39 @@ jobs:
           ]
           points.sort(key=lambda item: item[0])
           timestamps = [item[0] for item in points]
-          totals = [item[1] for item in points]
-          deltas = [item[2] for item in points]
+          totals     = [item[1] for item in points]
+          deltas     = [item[2] for item in points]
 
           x_values = list(range(len(points)))
-          
-          # --- THEME STYLING START ---
-          BG_COLOR = "#0d1117"
+
+          # ── THEME ────────────────────────────────────────────────────────────
+          BG_COLOR     = "#0d1117"
           ACCENT_ORANGE = "#ff7a00"
-          TEXT_WHITE = "#ffffff"
-          GRID_COLOR = "#30363d" # GitHub's border/grid color
+          TEXT_WHITE   = "#ffffff"
+          GRID_COLOR   = "#30363d"
 
           fig, ax_total = plt.subplots(figsize=(8.6, 1.8), dpi=100)
           fig.patch.set_facecolor(BG_COLOR)
           ax_total.set_facecolor(BG_COLOR)
-          
+
           ax_delta = ax_total.twinx()
-          ax_delta.set_facecolor("none") # Transparent overlay
+          ax_delta.set_facecolor("none")
 
-          # Set up Total Views (Bars) 
-          # Using a semi-transparent orange for the bars to keep contrast high
+          # ── BARS (total views) ───────────────────────────────────────────────
           ax_total.bar(x_values, totals, color=ACCENT_ORANGE, alpha=0.15, width=0.8)
-          
-          ymin, ymax = min(totals), max(totals)
-          ax_total.set_ylim(ymin - 10, ymax + 20) 
-          ax_total.yaxis.set_major_locator(ticker.MultipleLocator(50))
 
-          # Set up Views / 6h (Line) - High Contrast Orange
+          ymin, ymax = min(totals), max(totals)
+          total_range = max(ymax - ymin, 1)          # guard against flat data
+          ax_total.set_ylim(
+              ymin - total_range * 0.15,
+              ymax + total_range * 0.4,
+          )
+          # Adaptive integer ticks — no more MultipleLocator(50) on a 4-unit range
+          ax_total.yaxis.set_major_locator(
+              ticker.MaxNLocator(nbins=4, integer=True)
+          )
+
+          # ── LINE (views per 6 h) ─────────────────────────────────────────────
           ax_delta.plot(
               x_values,
               deltas,
@@ -154,10 +159,18 @@ jobs:
               marker="o",
               markersize=3.5,
               markeredgecolor=BG_COLOR,
-              markeredgewidth=0.5
+              markeredgewidth=0.5,
           )
 
-          # Formatting Ticks and Labels
+          # FIX: explicit ylim so matplotlib never compresses small integers
+          max_delta = max(deltas) if max(deltas) > 0 else 1
+          ax_delta.set_ylim(0, max_delta * 1.5 + 1)
+          # FIX: integer-only ticks — prevents "1 shown as 10" axis distortion
+          ax_delta.yaxis.set_major_locator(
+              ticker.MaxNLocator(nbins=5, integer=True)
+          )
+
+          # ── X-AXIS LABELS ───────────────────────────────────────────────────
           step = max(1, len(points) // 7)
           tick_indexes = list(range(0, len(points), step))
           if tick_indexes and tick_indexes[-1] != len(points) - 1:
@@ -167,28 +180,26 @@ jobs:
           ax_total.set_xticklabels(
               [timestamps[i].strftime("%d %b\n%H:%M") for i in tick_indexes],
               fontsize=6.5,
-              color=TEXT_WHITE
+              color=TEXT_WHITE,
           )
-          
-          ax_total.set_xlabel("IST time", fontsize=7, color=TEXT_WHITE)
-          ax_total.set_ylabel("Total views", fontsize=7, color=TEXT_WHITE)
-          ax_delta.set_ylabel("Views / 6h", fontsize=7, color=ACCENT_ORANGE, fontweight='bold')
 
-          # Tick appearance
+          ax_total.set_xlabel("IST time",     fontsize=7, color=TEXT_WHITE)
+          ax_total.set_ylabel("Total views",  fontsize=7, color=TEXT_WHITE)
+          ax_delta.set_ylabel("Views / 6h",   fontsize=7, color=ACCENT_ORANGE, fontweight="bold")
+
           ax_total.tick_params(axis="y", labelsize=6, colors=TEXT_WHITE)
-          ax_total.tick_params(axis="x", colors=TEXT_WHITE)
+          ax_total.tick_params(axis="x",              colors=TEXT_WHITE)
           ax_delta.tick_params(axis="y", labelsize=6, colors=ACCENT_ORANGE)
 
-          # Border (Spines) styling
           for ax in [ax_total, ax_delta]:
               for spine in ax.spines.values():
                   spine.set_color(GRID_COLOR)
-          
+
           ax_total.grid(axis="y", linestyle="--", alpha=0.3, color=TEXT_WHITE)
-          # --- THEME STYLING END ---
+          # ── END THEME ────────────────────────────────────────────────────────
 
           fig.tight_layout(pad=0.4)
-          fig.savefig(image_path, dpi=100, facecolor=fig.get_facecolor(), edgecolor='none')
+          fig.savefig(image_path, dpi=100, facecolor=fig.get_facecolor(), edgecolor="none")
           plt.close(fig)
           PY
 
