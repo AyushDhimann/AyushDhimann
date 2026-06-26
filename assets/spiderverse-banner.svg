@@ -182,17 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">SAYING THAT JAVA IS NICE BECAUSE IT WORKS ON</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">EVERY OS IS LIKE SAYING THAT ANAL SEX IS NICE</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">BECAUSE IT WORKS ON EVERY GENDER.</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">HOW DO YOU TELL HTML FROM HTML5? - TRY IT OUT</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">IN INTERNET EXPLORER - DID IT WORK? - NO? -</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">IT'S HTML5.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">SAYING THAT JAVA IS NICE BECAUSE IT WORKS ON</text>
-<text x="400" y="60" class="font-comic-small layer-red">EVERY OS IS LIKE SAYING THAT ANAL SEX IS NICE</text>
-<text x="400" y="92" class="font-comic-small layer-red">BECAUSE IT WORKS ON EVERY GENDER.</text>
+    <text x="400" y="28" class="font-comic-small layer-red">HOW DO YOU TELL HTML FROM HTML5? - TRY IT OUT</text>
+<text x="400" y="60" class="font-comic-small layer-red">IN INTERNET EXPLORER - DID IT WORK? - NO? -</text>
+<text x="400" y="92" class="font-comic-small layer-red">IT'S HTML5.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">SAYING THAT JAVA IS NICE BECAUSE IT WORKS ON</text>
-<text x="400" y="60" class="font-comic-small layer-white">EVERY OS IS LIKE SAYING THAT ANAL SEX IS NICE</text>
-<text x="400" y="92" class="font-comic-small layer-white">BECAUSE IT WORKS ON EVERY GENDER.</text>
+    <text x="400" y="28" class="font-comic-small layer-white">HOW DO YOU TELL HTML FROM HTML5? - TRY IT OUT</text>
+<text x="400" y="60" class="font-comic-small layer-white">IN INTERNET EXPLORER - DID IT WORK? - NO? -</text>
+<text x="400" y="92" class="font-comic-small layer-white">IT'S HTML5.</text>
 
   </g>
 
