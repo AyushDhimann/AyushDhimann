@@ -182,14 +182,14 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="44" class="font-comic-small layer-cyan">// THIS LINE DOESN'T ACTUALLY DO ANYTHING,</text>
-<text x="400" y="76" class="font-comic-small layer-cyan">BUT THE CODE STOPS WORKING WHEN I DELETE IT.</text>
+    <text x="400" y="44" class="font-comic-small layer-cyan">KNOCK KNOCK. WHO'S THERE? RECURSION.</text>
+<text x="400" y="76" class="font-comic-small layer-cyan">RECURSION WHO? KNOCK KNOCK.</text>
 
-    <text x="400" y="44" class="font-comic-small layer-red">// THIS LINE DOESN'T ACTUALLY DO ANYTHING,</text>
-<text x="400" y="76" class="font-comic-small layer-red">BUT THE CODE STOPS WORKING WHEN I DELETE IT.</text>
+    <text x="400" y="44" class="font-comic-small layer-red">KNOCK KNOCK. WHO'S THERE? RECURSION.</text>
+<text x="400" y="76" class="font-comic-small layer-red">RECURSION WHO? KNOCK KNOCK.</text>
 
-    <text x="400" y="44" class="font-comic-small layer-white">// THIS LINE DOESN'T ACTUALLY DO ANYTHING,</text>
-<text x="400" y="76" class="font-comic-small layer-white">BUT THE CODE STOPS WORKING WHEN I DELETE IT.</text>
+    <text x="400" y="44" class="font-comic-small layer-white">KNOCK KNOCK. WHO'S THERE? RECURSION.</text>
+<text x="400" y="76" class="font-comic-small layer-white">RECURSION WHO? KNOCK KNOCK.</text>
 
   </g>
 
