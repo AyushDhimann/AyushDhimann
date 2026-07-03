@@ -182,17 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">THERE ARE ONLY 10 KINDS OF PEOPLE IN THIS</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">WORLD: THOSE WHO KNOW BINARY AND THOSE WHO</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">DON'T.</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">TWO C STRINGS WALK INTO A BAR. THE BARTENDER</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">ASKS "WHAT CAN I GET YA?" THE FIRST STRING</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">SAYS "I'LL HAVE A GIN AND TONIC." THE SECOND</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">THERE ARE ONLY 10 KINDS OF PEOPLE IN THIS</text>
-<text x="400" y="60" class="font-comic-small layer-red">WORLD: THOSE WHO KNOW BINARY AND THOSE WHO</text>
-<text x="400" y="92" class="font-comic-small layer-red">DON'T.</text>
+    <text x="400" y="28" class="font-comic-small layer-red">TWO C STRINGS WALK INTO A BAR. THE BARTENDER</text>
+<text x="400" y="60" class="font-comic-small layer-red">ASKS "WHAT CAN I GET YA?" THE FIRST STRING</text>
+<text x="400" y="92" class="font-comic-small layer-red">SAYS "I'LL HAVE A GIN AND TONIC." THE SECOND</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">THERE ARE ONLY 10 KINDS OF PEOPLE IN THIS</text>
-<text x="400" y="60" class="font-comic-small layer-white">WORLD: THOSE WHO KNOW BINARY AND THOSE WHO</text>
-<text x="400" y="92" class="font-comic-small layer-white">DON'T.</text>
+    <text x="400" y="28" class="font-comic-small layer-white">TWO C STRINGS WALK INTO A BAR. THE BARTENDER</text>
+<text x="400" y="60" class="font-comic-small layer-white">ASKS "WHAT CAN I GET YA?" THE FIRST STRING</text>
+<text x="400" y="92" class="font-comic-small layer-white">SAYS "I'LL HAVE A GIN AND TONIC." THE SECOND</text>
 
   </g>
 
