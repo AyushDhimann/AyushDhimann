@@ -182,14 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="44" class="font-comic-small layer-cyan">I HAVE A JOKE ABOUT STACK OVERFLOW, BUT YOU</text>
-<text x="400" y="76" class="font-comic-small layer-cyan">WOULD SAY IT'S A DUPLICATE.</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">"HONEY, GO TO THE STORE AND BUY SOME EGGS."</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">"OK." "OH AND WHILE YOU'RE THERE, GET SOME</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">MILK." HE NEVER RETURNED.</text>
 
-    <text x="400" y="44" class="font-comic-small layer-red">I HAVE A JOKE ABOUT STACK OVERFLOW, BUT YOU</text>
-<text x="400" y="76" class="font-comic-small layer-red">WOULD SAY IT'S A DUPLICATE.</text>
+    <text x="400" y="28" class="font-comic-small layer-red">"HONEY, GO TO THE STORE AND BUY SOME EGGS."</text>
+<text x="400" y="60" class="font-comic-small layer-red">"OK." "OH AND WHILE YOU'RE THERE, GET SOME</text>
+<text x="400" y="92" class="font-comic-small layer-red">MILK." HE NEVER RETURNED.</text>
 
-    <text x="400" y="44" class="font-comic-small layer-white">I HAVE A JOKE ABOUT STACK OVERFLOW, BUT YOU</text>
-<text x="400" y="76" class="font-comic-small layer-white">WOULD SAY IT'S A DUPLICATE.</text>
+    <text x="400" y="28" class="font-comic-small layer-white">"HONEY, GO TO THE STORE AND BUY SOME EGGS."</text>
+<text x="400" y="60" class="font-comic-small layer-white">"OK." "OH AND WHILE YOU'RE THERE, GET SOME</text>
+<text x="400" y="92" class="font-comic-small layer-white">MILK." HE NEVER RETURNED.</text>
 
   </g>
 
