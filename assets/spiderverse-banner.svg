@@ -182,14 +182,11 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="44" class="font-comic-small layer-cyan">I'VE GOT A REALLY GOOD UDP JOKE TO TELL YOU</text>
-<text x="400" y="76" class="font-comic-small layer-cyan">BUT I DON’T KNOW IF YOU'LL GET IT.</text>
+    <text x="400" y="60" class="font-comic-small layer-cyan">"WE MESSED UP THE KEMING AGAIN GUYS."</text>
 
-    <text x="400" y="44" class="font-comic-small layer-red">I'VE GOT A REALLY GOOD UDP JOKE TO TELL YOU</text>
-<text x="400" y="76" class="font-comic-small layer-red">BUT I DON’T KNOW IF YOU'LL GET IT.</text>
+    <text x="400" y="60" class="font-comic-small layer-red">"WE MESSED UP THE KEMING AGAIN GUYS."</text>
 
-    <text x="400" y="44" class="font-comic-small layer-white">I'VE GOT A REALLY GOOD UDP JOKE TO TELL YOU</text>
-<text x="400" y="76" class="font-comic-small layer-white">BUT I DON’T KNOW IF YOU'LL GET IT.</text>
+    <text x="400" y="60" class="font-comic-small layer-white">"WE MESSED UP THE KEMING AGAIN GUYS."</text>
 
   </g>
 
