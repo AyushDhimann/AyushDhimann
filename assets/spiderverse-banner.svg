@@ -182,14 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="44" class="font-comic-small layer-cyan">"KNOCK, KNOCK." "WHO'S THERE?"  [VERY LONG</text>
-<text x="400" y="76" class="font-comic-small layer-cyan">PAUSE]  "JAVA."</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">A PROGRAMMER PUTS TWO GLASSES ON HIS BEDSIDE</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">TABLE BEFORE GOING TO SLEEP. A FULL ONE, IN</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">CASE HE GETS THIRSTY, AND AN EMPTY ONE, IN</text>
 
-    <text x="400" y="44" class="font-comic-small layer-red">"KNOCK, KNOCK." "WHO'S THERE?"  [VERY LONG</text>
-<text x="400" y="76" class="font-comic-small layer-red">PAUSE]  "JAVA."</text>
+    <text x="400" y="28" class="font-comic-small layer-red">A PROGRAMMER PUTS TWO GLASSES ON HIS BEDSIDE</text>
+<text x="400" y="60" class="font-comic-small layer-red">TABLE BEFORE GOING TO SLEEP. A FULL ONE, IN</text>
+<text x="400" y="92" class="font-comic-small layer-red">CASE HE GETS THIRSTY, AND AN EMPTY ONE, IN</text>
 
-    <text x="400" y="44" class="font-comic-small layer-white">"KNOCK, KNOCK." "WHO'S THERE?"  [VERY LONG</text>
-<text x="400" y="76" class="font-comic-small layer-white">PAUSE]  "JAVA."</text>
+    <text x="400" y="28" class="font-comic-small layer-white">A PROGRAMMER PUTS TWO GLASSES ON HIS BEDSIDE</text>
+<text x="400" y="60" class="font-comic-small layer-white">TABLE BEFORE GOING TO SLEEP. A FULL ONE, IN</text>
+<text x="400" y="92" class="font-comic-small layer-white">CASE HE GETS THIRSTY, AND AN EMPTY ONE, IN</text>
 
   </g>
 
