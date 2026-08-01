@@ -182,14 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="44" class="font-comic-small layer-cyan">"CAN I TELL YOU A TCP JOKE?" "PLEASE TELL ME</text>
-<text x="400" y="76" class="font-comic-small layer-cyan">A TCP JOKE." "OK, I'LL TELL YOU A TCP JOKE."</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">JAVA AND C WERE TELLING JOKES. IT WAS C'S</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">TURN, SO HE WRITES SOMETHING ON THE WALL,</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">POINTS TO IT AND SAYS "DO YOU GET THE</text>
 
-    <text x="400" y="44" class="font-comic-small layer-red">"CAN I TELL YOU A TCP JOKE?" "PLEASE TELL ME</text>
-<text x="400" y="76" class="font-comic-small layer-red">A TCP JOKE." "OK, I'LL TELL YOU A TCP JOKE."</text>
+    <text x="400" y="28" class="font-comic-small layer-red">JAVA AND C WERE TELLING JOKES. IT WAS C'S</text>
+<text x="400" y="60" class="font-comic-small layer-red">TURN, SO HE WRITES SOMETHING ON THE WALL,</text>
+<text x="400" y="92" class="font-comic-small layer-red">POINTS TO IT AND SAYS "DO YOU GET THE</text>
 
-    <text x="400" y="44" class="font-comic-small layer-white">"CAN I TELL YOU A TCP JOKE?" "PLEASE TELL ME</text>
-<text x="400" y="76" class="font-comic-small layer-white">A TCP JOKE." "OK, I'LL TELL YOU A TCP JOKE."</text>
+    <text x="400" y="28" class="font-comic-small layer-white">JAVA AND C WERE TELLING JOKES. IT WAS C'S</text>
+<text x="400" y="60" class="font-comic-small layer-white">TURN, SO HE WRITES SOMETHING ON THE WALL,</text>
+<text x="400" y="92" class="font-comic-small layer-white">POINTS TO IT AND SAYS "DO YOU GET THE</text>
 
   </g>
 
