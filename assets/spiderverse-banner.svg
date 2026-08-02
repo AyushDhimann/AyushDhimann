@@ -182,17 +182,11 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">A BYTE WALKS INTO A BAR LOOKING MISERABLE.</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">THE BARTENDER ASKS IT: "WHAT'S WRONG BUDDY?"</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">"PARITY ERROR." IT REPLIES.  "AH THAT MAKES</text>
+    <text x="400" y="60" class="font-comic-small layer-cyan">ASCII SILLY QUESTION, GET A SILLY ANSI.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">A BYTE WALKS INTO A BAR LOOKING MISERABLE.</text>
-<text x="400" y="60" class="font-comic-small layer-red">THE BARTENDER ASKS IT: "WHAT'S WRONG BUDDY?"</text>
-<text x="400" y="92" class="font-comic-small layer-red">"PARITY ERROR." IT REPLIES.  "AH THAT MAKES</text>
+    <text x="400" y="60" class="font-comic-small layer-red">ASCII SILLY QUESTION, GET A SILLY ANSI.</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">A BYTE WALKS INTO A BAR LOOKING MISERABLE.</text>
-<text x="400" y="60" class="font-comic-small layer-white">THE BARTENDER ASKS IT: "WHAT'S WRONG BUDDY?"</text>
-<text x="400" y="92" class="font-comic-small layer-white">"PARITY ERROR." IT REPLIES.  "AH THAT MAKES</text>
+    <text x="400" y="60" class="font-comic-small layer-white">ASCII SILLY QUESTION, GET A SILLY ANSI.</text>
 
   </g>
 
