@@ -182,17 +182,17 @@
   <!-- TEXT 5: DYNAMIC GITHUB ACTION JOKE -->
   <g class="impact-flash-group delay-5"><use href="#impact-burst" /></g>
   <g class="text-group delay-5">
-    <text x="400" y="28" class="font-comic-small layer-cyan">THERE ARE ONLY 10 KINDS OF PEOPLE IN THIS</text>
-<text x="400" y="60" class="font-comic-small layer-cyan">WORLD: THOSE WHO KNOW BINARY AND THOSE WHO</text>
-<text x="400" y="92" class="font-comic-small layer-cyan">DON'T.</text>
+    <text x="400" y="28" class="font-comic-small layer-cyan">A GUY WALKS INTO A BAR AND ASKS FOR 1.4 ROOT</text>
+<text x="400" y="60" class="font-comic-small layer-cyan">BEERS. THE BARTENDER SAYS "I'LL HAVE TO</text>
+<text x="400" y="92" class="font-comic-small layer-cyan">CHARGE YOU EXTRA, THAT'S A ROOT BEER FLOAT".</text>
 
-    <text x="400" y="28" class="font-comic-small layer-red">THERE ARE ONLY 10 KINDS OF PEOPLE IN THIS</text>
-<text x="400" y="60" class="font-comic-small layer-red">WORLD: THOSE WHO KNOW BINARY AND THOSE WHO</text>
-<text x="400" y="92" class="font-comic-small layer-red">DON'T.</text>
+    <text x="400" y="28" class="font-comic-small layer-red">A GUY WALKS INTO A BAR AND ASKS FOR 1.4 ROOT</text>
+<text x="400" y="60" class="font-comic-small layer-red">BEERS. THE BARTENDER SAYS "I'LL HAVE TO</text>
+<text x="400" y="92" class="font-comic-small layer-red">CHARGE YOU EXTRA, THAT'S A ROOT BEER FLOAT".</text>
 
-    <text x="400" y="28" class="font-comic-small layer-white">THERE ARE ONLY 10 KINDS OF PEOPLE IN THIS</text>
-<text x="400" y="60" class="font-comic-small layer-white">WORLD: THOSE WHO KNOW BINARY AND THOSE WHO</text>
-<text x="400" y="92" class="font-comic-small layer-white">DON'T.</text>
+    <text x="400" y="28" class="font-comic-small layer-white">A GUY WALKS INTO A BAR AND ASKS FOR 1.4 ROOT</text>
+<text x="400" y="60" class="font-comic-small layer-white">BEERS. THE BARTENDER SAYS "I'LL HAVE TO</text>
+<text x="400" y="92" class="font-comic-small layer-white">CHARGE YOU EXTRA, THAT'S A ROOT BEER FLOAT".</text>
 
   </g>
 
