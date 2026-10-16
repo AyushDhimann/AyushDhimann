@@ -1,10 +1,5 @@
 [
   {
-    "timestamp_ist": "2026-10-09T18:09:51.425331+05:30",
-    "viewer_count": 11121,
-    "views_in_last_6h": 0
-  },
-  {
     "timestamp_ist": "2026-10-10T03:50:09.726286+05:30",
     "viewer_count": 11121,
     "views_in_last_6h": 0
@@ -116,6 +111,11 @@
   },
   {
     "timestamp_ist": "2026-10-16T16:18:31.146165+05:30",
+    "viewer_count": 11123,
+    "views_in_last_6h": 0
+  },
+  {
+    "timestamp_ist": "2026-10-16T21:40:09.090489+05:30",
     "viewer_count": 11123,
     "views_in_last_6h": 0
   }
