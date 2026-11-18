@@ -1,15 +1,5 @@
 [
   {
-    "timestamp_ist": "2026-11-11T10:25:23.336954+05:30",
-    "viewer_count": 11147,
-    "views_in_last_6h": 0
-  },
-  {
-    "timestamp_ist": "2026-11-11T19:09:14.345015+05:30",
-    "viewer_count": 11147,
-    "views_in_last_6h": 0
-  },
-  {
     "timestamp_ist": "2026-11-12T05:36:09.195813+05:30",
     "viewer_count": 11147,
     "views_in_last_6h": 0
@@ -91,6 +81,11 @@
   },
   {
     "timestamp_ist": "2026-11-18T06:06:09.022305+05:30",
+    "viewer_count": 11151,
+    "views_in_last_6h": 0
+  },
+  {
+    "timestamp_ist": "2026-11-18T20:41:45.760211+05:30",
     "viewer_count": 11151,
     "views_in_last_6h": 0
   }
